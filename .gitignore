@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+coverage/
+
+# Logs and OS files
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
