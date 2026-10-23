@@ -1,0 +1,93 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 35px;
+    background-color: #0A4D68 ;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 1653px;
+  
+    &__Logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  
+      img {
+        height: 50px;
+      }
+  
+      h4 {
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-weight: bold;
+        margin: 0;
+      }
+  
+      &:hover h4 {
+        color: #f0f0f0;
+      }
+    }
+  
+    &__Menu {
+      display: flex;
+      gap: 25px;
+      font-size: 1rem;
+  
+      a {
+        color: #ffffff;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+  
+        &:hover {
+          background-color: #4e4cc7;
+          color: #ffffff;
+        }
+      }
+    }
+  
+    &__ProfileMenu {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      max-width: 120px;
+      
+      &-Links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    
+      a {
+        color: #ffffff;
+        background-color: #e6394794;
+        font-weight: 600;
+        padding: 10px 12px;
+        border-radius: 8px; 
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        
+        &:hover {
+          background-color: #c72c3e75;
+          transform: scale(1.05); 
+        }
+      }
+    
+      &-Profile img {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      &__ProfileMenu {
+        width: 100%;
+        justify-content: flex-end;
+      }
+    }
+    
+  }

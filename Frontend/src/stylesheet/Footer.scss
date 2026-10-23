@@ -1,0 +1,43 @@
+.footer {
+    background-color: #0A4D68 ;
+    color: #ffffffc2;
+    padding: 20px 20px;
+    font-size: 1rem;
+    margin: auto;
+    min-width: 1673px;
+  
+    &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1080px;
+      margin: 0 auto;
+      gap: 30px;
+    }
+  
+    &__logo {
+      h4 {
+        font-size: 1.6rem;
+        font-weight: bold;
+      }
+    }
+  
+    &__contact {
+      p {
+        margin: 5px 0;
+      }
+    }
+  
+    &__bottom {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: rgba(216, 216, 216, 0.473);
+  
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
